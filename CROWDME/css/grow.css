@@ -1,0 +1,126 @@
+.grow__container {
+    background-image: url(../img/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 20px;
+}
+
+    .grow__container__title h1 {
+        color: #afd135;
+        font-size: 20px;
+    }
+
+    .grow__container__title p {
+        color: #acacac;
+        font-size: 15px;
+    }
+    .top{
+        background: white;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 10px;
+        position: relative;
+    }
+
+    .top h3{
+        color: #afd135;
+        font-size: 20px;
+    }
+    .top p{
+        color: #9f9f9f;
+        font-size: 15px;
+    }
+
+    .triangle {
+        position: absolute;
+        bottom: -20px;
+        left: 120px;
+        width: 0; 
+        height: 0; 
+        border-right: 20px solid transparent;
+        border-top: 20px solid white;
+      }
+
+    .bot{
+        padding-top: 20px;
+    }
+
+
+@media (min-width:768px){
+    .grow__container {
+        padding: 20px;
+    }
+
+    .bot{
+        display: flex;
+        justify-content: center;
+    }
+    .bot img{
+     margin-right: 20px;
+    }
+    .grow__container_info{
+        display: flex;
+    }
+    .triangle {
+        left: 85px;
+    }
+}
+
+@media (min-width:1024px){
+    .grow__container {
+        padding: 20px;
+    }
+
+    .bot img{
+       margin-left: -120px;
+     }
+}
+
+@media (min-width:1300px){
+    .grow__container_info{
+        justify-content: space-between;
+    }
+  
+.grow__container{
+    padding: 52px 177px 61px;
+}
+
+.grow__container_info__item{
+    width: 398px;
+}
+    .grow__container__title h1{
+        font-size: 39.2px;
+    }
+
+    .grow__container__title p{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+.top{
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 10px 35px;
+}
+    .top h3{
+        font-size: 21.2px;
+
+    }
+    
+    .top p{
+        font-size: 13.2px;
+        line-height: 25px;
+    }
+
+    .bot p {
+        font-size: 15.2px;
+
+    }
+
+    .triangle {
+        left: 80px;
+    }
+
+}

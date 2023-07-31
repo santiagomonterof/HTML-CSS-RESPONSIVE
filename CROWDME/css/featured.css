@@ -1,0 +1,87 @@
+.featured__container{
+    text-align:  center;
+    margin: 20px 30px;
+}
+
+    .featured__container h1{
+        font-size: 15px;
+        color: #505050;
+    }
+
+    .featured__container p{
+        font-size: 10px;
+        margin: 20px 0px;
+        color: #acacac;
+    }
+
+    .featured__container__btn input{
+        font-size: 10px;
+        background-color: white;
+        color: #acacac; 
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #acacac;
+    }
+
+@media(min-width:768px){
+
+    .featured__container{
+        display: flex;
+        text-align: left;
+        justify-content: space-around;
+        margin: 20px 0px;
+    }
+
+    .featured__container h1{
+        font-size: 20px;
+    }
+
+    .featured__container p{
+        font-size: 13px;
+        width: 450px;
+    }
+
+    .featured__container__btn {
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+}
+
+@media(min-width:1024px){
+    .featured__container{
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:1300px){
+    .featured__container{
+       margin: 0px 90px;
+    }
+
+    .featured__container h1{
+        font-size: 29.2px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .featured__container p{
+        font-size: 17.2px;
+        line-height: 30px;
+        margin-left: 20px;
+        width: 674px;
+    }
+
+    .featured__container__btn {
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .featured__container__btn input {
+        font-size: 14.83px;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 15px 20px;
+    }
+ 
+}

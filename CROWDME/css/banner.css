@@ -1,0 +1,108 @@
+
+.banner__container {
+    text-align: center;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #fefefa;
+    margin-top: 1vh;
+}
+
+    .banner__container h1 {
+        font-size: 3vh;
+        margin: 1vh;
+        font-family: 'Open Sans SemiBold',sans-serif;
+    }
+
+    .banner__container p {
+        font-size: 2vh;
+        letter-spacing: 0;
+        margin: 1vh;
+    }
+
+    .banner__container__btn{
+        border: 0;
+        background-color: #99c60b;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .banner__container__arrows {
+        display: flex;
+        justify-content: right;
+        color: #fefefa;
+        opacity: 0.65;
+        margin-right: 15px;
+    }
+    .banner__container__arrows i{
+        margin-right: 10px;
+    }
+
+    
+@media (min-width:768px) {
+
+.banner__container {
+    height: 350px;
+    margin-top: 15px;
+}
+
+    .banner__container__responsive{
+        margin-top: 90px;
+    }
+
+    .banner__container__btn{
+        margin-top: 40px;
+    }
+
+    .banner__container__arrows {
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+}
+
+@media (min-width:1300px) {
+
+.banner__container {
+    width: 1300px;
+    height: 570px;
+}
+
+    .banner__container__responsive{
+        margin-top: 140px;
+    }
+
+    .banner__container h1 {
+        font-size: 49.2px;
+        margin: 0;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
+    .banner__container p {
+        font-size: 35px;
+        margin: 0;
+        color: #f6f5f6;
+    }
+
+    .banner__container__btn{
+        font-size: 19.2px;
+        padding: 28px 36px;
+        margin-top: 58px;
+        border-radius: 10px;
+    }
+
+    .banner__container__arrows {
+        margin-top: 60px;
+        margin-right: 135px;
+        font-size: 25px;
+        opacity: 1;
+    }
+        .banner__container__arrows i{
+            margin-right: 15px;
+        }
+}
